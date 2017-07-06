@@ -12,5 +12,7 @@ public class MainActivity extends MyBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         MyUtils.log("ok");
+        MyUtils.log("--------------------");
+        MyUtils.log("update on android studio and commit");
     }
 }
